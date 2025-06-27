@@ -1,0 +1,158 @@
+[
+  {
+    "id": "ORD-001",
+    "items": [
+      {
+        "productId": 1,
+        "productName": "Premium Wireless Headphones",
+        "quantity": 1,
+        "price": 299.99,
+        "variant": { "Color": "Black", "Size": "Standard" }
+      },
+      {
+        "productId": 5,
+        "productName": "Wireless Bluetooth Speaker",
+        "quantity": 2,
+        "price": 79.99,
+        "variant": { "Color": "Blue", "Size": "Standard" }
+      }
+    ],
+    "customer": {
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1-555-0123"
+    },
+    "total": 459.97,
+    "status": "delivered",
+    "shippingAddress": {
+      "street": "123 Main St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94102",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-01T14:30:00Z"
+  },
+  {
+    "id": "ORD-002",
+    "items": [
+      {
+        "productId": 3,
+        "productName": "Organic Cotton T-Shirt",
+        "quantity": 3,
+        "price": 29.99,
+        "variant": { "Size": "M", "Color": "Navy" }
+      }
+    ],
+    "customer": {
+      "name": "Sarah Johnson",
+      "email": "sarah.j@example.com",
+      "phone": "+1-555-0456"
+    },
+    "total": 89.97,
+    "status": "shipped",
+    "shippingAddress": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-02T09:15:00Z"
+  },
+  {
+    "id": "ORD-003",
+    "items": [
+      {
+        "productId": 2,
+        "productName": "Smart Fitness Watch",
+        "quantity": 1,
+        "price": 199.99,
+        "variant": { "Color": "Rose Gold", "Band": "Sport" }
+      },
+      {
+        "productId": 6,
+        "productName": "Running Sneakers",
+        "quantity": 1,
+        "price": 129.99,
+        "variant": { "Size": "9", "Color": "White" }
+      }
+    ],
+    "customer": {
+      "name": "Mike Davis",
+      "email": "mike.davis@example.com",
+      "phone": "+1-555-0789"
+    },
+    "total": 329.98,
+    "status": "processing",
+    "shippingAddress": {
+      "street": "789 Pine St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-03T16:45:00Z"
+  },
+  {
+    "id": "ORD-004",
+    "items": [
+      {
+        "productId": 4,
+        "productName": "Leather Crossbody Bag",
+        "quantity": 1,
+        "price": 149.99,
+        "variant": { "Color": "Brown", "Size": "Medium" }
+      }
+    ],
+    "customer": {
+      "name": "Emma Wilson",
+      "email": "emma.wilson@example.com",
+      "phone": "+1-555-0321"
+    },
+    "total": 149.99,
+    "status": "pending",
+    "shippingAddress": {
+      "street": "321 Elm St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-04T11:20:00Z"
+  },
+  {
+    "id": "ORD-005",
+    "items": [
+      {
+        "productId": 7,
+        "productName": "Premium Coffee Beans",
+        "quantity": 4,
+        "price": 24.99,
+        "variant": { "Roast": "Medium", "Grind": "Whole Bean" }
+      },
+      {
+        "productId": 8,
+        "productName": "Stainless Steel Water Bottle",
+        "quantity": 2,
+        "price": 34.99,
+        "variant": { "Size": "20oz", "Color": "Black" }
+      }
+    ],
+    "customer": {
+      "name": "David Brown",
+      "email": "david.brown@example.com",
+      "phone": "+1-555-0654"
+    },
+    "total": 169.94,
+    "status": "delivered",
+    "shippingAddress": {
+      "street": "654 Maple Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "createdAt": "2024-03-05T13:10:00Z"
+  }
+]
